@@ -1,14 +1,32 @@
-import { Link } from 'expo-router';
-import { StyleSheet, Text, View } from 'react-native';
+import { Link, useRouter } from 'expo-router';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function Index() {
+    const router = useRouter();
+
+    const handlePress = () => {
+        router.push('/interno/56');
+    };
+
     return (
         <View style={styles.container}>
             <Text style={styles.text}>Ain jeanzada do xesquedele.</Text>
             <Text>Ain jeanzada do xesquedele.</Text>
-            <Link href="/list" style={styles.linkList}>
+            <Link href="/interno/list" style={styles.linkList}>
                 Ir para a List
             </Link>
+            <Text>Ain jeanzada do xesquedele.</Text>
+            <Link
+                href={{
+                    pathname: '/interno/[id]',
+                    params: { id: '123', color: 'red' },
+                }}
+                style={styles.linkList}
+            >
+                Ir para a List
+            </Link>
+
+            <Button onPress={handlePress} title="Ir para a List" />
         </View>
     );
 }

@@ -5,7 +5,7 @@ export default function NotFound() {
     return (
         <View>
             <Text>List Screen</Text>
-            <Link style={styles.link} href="/" replace={true}>
+            <Link style={styles.link} href="/interno/" replace={true}>
                 Voltar
             </Link>
         </View>

@@ -5,7 +5,7 @@ export default function List() {
     return (
         <View>
             <Text>List Screen</Text>
-            <Link style={styles.link} href="/billing">
+            <Link style={styles.link} href="/interno/billing">
                 Ir para a Cobranças
             </Link>
         </View>

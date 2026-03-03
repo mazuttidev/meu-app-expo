@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "titulo": "Login",
+        "descricao": "A tela de login é a porta de entrada para os usuários acessarem suas contas. Ela deve ser simples, intuitiva e segura, permitindo que os usuários façam login usando suas credenciais, como email e senha, ou através de métodos de autenticação social, como Google ou Facebook. A tela de login deve fornecer feedback claro sobre erros de autenticação e oferecer opções para recuperação de senha, garantindo uma experiência de usuário positiva desde o início."
+    },
+    {
+        "id": 2,
+        "titulo": "List",
+        "descricao": "A tela de listagem é onde os usuários podem visualizar uma coleção de itens, como produtos, mensagens ou tarefas. Ela deve ser organizada e fácil de navegar, permitindo que os usuários filtrem, ordenem e pesquisem os itens conforme necessário. A tela de listagem deve fornecer informações relevantes sobre cada item, como título, descrição e imagem, e permitir que os usuários interajam com os itens, como clicar para ver detalhes ou realizar ações específicas."
+    },
+    {
+        "id": 3,
+        "titulo": "Cobranças",
+        "descricao": "A tela de cobranças é onde os usuários podem gerenciar suas transações financeiras, como faturas, pagamentos e histórico de cobranças. Ela deve ser clara e organizada, permitindo que os usuários visualizem suas cobranças de forma fácil e compreensível. A tela de cobranças deve fornecer detalhes sobre cada transação, como valor, data e status, e permitir que os usuários realizem ações, como pagar uma fatura ou visualizar o histórico de pagamentos."
+    }
+]

@@ -6,7 +6,7 @@ export default function Billing() {
         <View>
             <Text>Ain jeanzada do xesquedele.</Text>
             <Text>Ain jeanzada do xesquedele.</Text>
-            <Link href="/" style={styles.link}>
+            <Link href="/interno/" style={styles.link}>
                 Ir para a Home
             </Link>
         </View>
